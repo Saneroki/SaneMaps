@@ -1,0 +1,31 @@
+﻿;--
+;-- Created by IntelliJ IDEA.
+;-- User: Glenn @Saneroki [EU] Drescher
+;-- Date: 21/12/2016
+;-- Time: 19:39
+;--
+
+
+; This Add-on is not created by, affiliated with or sponsored by ZeniMax
+; Media Inc. or its affiliates. The Elder Scrolls® and related logos are
+; registered trademarks or trademarks of ZeniMax Media Inc. in the United
+; States and/or other countries. All rights reserved.
+; You can read the full terms at https://account.elderscrollsonline.com/add-on-terms
+
+## Title: Sane Maps
+## Description: Many enhancements to the ESO interface.
+## Version: 1.00
+## Author: @Saneroki [EU]
+## OptionalDependsOn: LibAddonMenu-2.0
+## APIVersion: 100018
+## SavedVariables: SavedVar
+
+lang/en.lua
+lang/$(language).lua
+
+libs/LibStub/LibStub.lua
+libs/LibAddonMenu-2.0/LibAddonMenu-2.0.lua
+
+
+src/MainMap.lua
+src/Launch.lua
